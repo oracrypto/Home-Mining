@@ -48,3 +48,10 @@ function login() {
         errorMessage.style.display = "block";
     }
 }
+document.addEventListener('click', function(event) {
+    // تحقق إذا كان العنصر الذي تم الضغط عليه ليس حقل إدخال
+    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
+        // إلغاء التركيز عن حقل النص لإخفاء الكيبورد
+        document.activeElement.blur();
+    }
+});
