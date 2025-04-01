@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- ربط ملف CSS -->
+    <script src="script.js" defer></script> <!-- ربط ملف JavaScript -->
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="app-info">
+            <div class="app-name">Crypto App</div>
+            <div class="app-version">v2.6.1</div>
+        </div>
+        <div class="logo"></div>
+        <h2>Log in</h2>
+        <p>Enter the activation key</p>
+        
+        <!-- حقل الإدخال من نوع password لإخفاء النص المدخل -->
+        <input type="password" id="activationKey" class="input-field" placeholder="Enter your key" />
+
+        <button onclick="login()">Continue</button>
+        
+        <p class="error-message" id="error-message">Invalid activation key</p>
+        
+        <!-- النصين في نفس السطر مع ألوان مختلفة -->
+        <div class="buy-container">
+            <span class="activation-key-text">Doesn't have activation key?</span>
+            <a href="https://t.me/CryptoAppAdmin" class="buy-link">Buy</a>
+        </div>
+    </div>
+
+</body>
+</html>
