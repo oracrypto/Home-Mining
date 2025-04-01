@@ -34,7 +34,7 @@ function login() {
       "OILGJETRYCTUV": "https://bjuvhytor.blogspot.com/",
       "ETRCYTVUIOPO": "https://gvhjor.blogspot.com/",
       "WXERBYUIMOPO": "https://SERDTFYor.blogspot.com/",
-      "KNLJKBUYPO": "https://ERDTdtor.blogspot.com/",
+      "VB3TZLH9MZI2": "https://oracrypto.github.io/cryptoruit/",
       "TRYCTGVHKBJV": "https://DRTFYrictor.blogspot.com/",
       "NO69NFDD2MU": "https://ewrdf78.blogspot.com/",
       // ... (بقية المفاتيح)
