@@ -1,0 +1,165 @@
+:root {
+    --top-position: -20px;
+    --left-position: 1px;
+    --logo-size: 310px;
+    --font-size-app-name: 21px;
+    --font-size-app-version: 14px;
+    --input-width: 325px;
+    --button-width: 367px;
+    --element-spacing: 10px;
+}
+
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefcff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-64%);
+    padding: 0;
+}
+
+.app-info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: var(--top-position);
+    left: var(--left-position);
+}
+
+.app-name {
+    font-size: var(--font-size-app-name);
+    font-weight: bold;
+    color: #000;
+}
+
+.app-version {
+    font-size: var(--font-size-app-version);
+    font-weight: ;
+    color: #8c8c8c;
+    margin-left: 6px;
+}
+
+.logo {
+    background-image: url('https://i.postimg.cc/9XwY2sr9/lv-0-20250320025054.gif');
+    background-size: cover;
+    background-position: center;
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border-radius: 0%;
+    margin: 33px auto 25px;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    margin-top: -10;
+    padding: 0;
+    text-align: left;
+    margin-left: 12px;
+}
+
+p {
+    font-size: 15px;
+    color: #888;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.input-field {
+    width: 100%;
+    max-width: var(--input-width);
+    padding: 15px;
+    margin-top: var(--element-spacing);
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    outline: none;
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-field:focus {
+    border-color: #000;
+}
+
+button {
+    width: 100%;
+    max-width: var(--button-width);
+    padding: 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: var(--element-spacing);
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: var(--element-spacing);
+    display: none;
+}
+
+/* عرض النص في نفس السطر */
+.buy-container {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: var(--element-spacing);
+}
+
+/* إعدادات اللون للنص */
+.activation-key-text {
+    color: #888;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buy-link {
+    color: #000; /* اللون الأسود للنص */
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.buy-link:hover {
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
