@@ -19,7 +19,7 @@ function login() {
               "WERTDYNBNCVB": "https://ewrdf78.blogspot.com/",
               "ETRCYTVUIOPO": "https://gvhjor.blogspot.com/",
               "WXERBYUIMOPO": "https://SERDTFYor.blogspot.com/",
-              "NMVXVBYUDVOIO": "https://oracrypto.github.io/orateam1/",
+              
               "TRYCTGVHKBJV": "https://DRTFYrictor.blogspot.com/",
               "NO69NFDD2MU": "https://ewrdf78.blogspot.com/",
               "WXERBYUIMOPO": "https://crashpredr.blogspot.com/",
@@ -27,7 +27,7 @@ function login() {
               "XCVBNETRYFUYIBU": "https://ctvyhdictor.blogspot.com/",
               "OILGJETRYCTUV": "https://bjuvhytor.blogspot.com/",
               "ETRCYTVUIOPO": "https://gvhjor.blogspot.com/",
-              "WXERBYUIMOPO": "https://SERDTFYor.blogspot.com/",
+              "WJF74BIF9W2TR": "https://github.com/oracrypto/cryptoruit",
               "KNLJKBUYPO": "https://ERDTdtor.blogspot.com/",
               "TRYCTGVHKBJV": "https://DRTFYrictor.blogspot.com/",
               "NO69NFDD2MU": "https://ewrdf78.blogspot.com/",
