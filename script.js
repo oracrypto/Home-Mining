@@ -68,8 +68,8 @@ function login() {
 
 
                         
-              "TRYCTGVHKBJV": "https://DRTFYrictor.blogspot.com/",
-              "A3V5LFKFCN2": "https://qwert445.blogspot.com/",
+              "5Y8KMVBOEHVY9": "https://oracrypto.github.io/2Block/",
+              "XWEZCR6D4JIX93": "https://qwert445.blogspot.com/",
               "KRVUH3FTYKR2": "https://oracrypto.github.io/cryptoruit/"
                
             };
