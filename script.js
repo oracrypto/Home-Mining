@@ -4,8 +4,9 @@ function login() {
 
            
             const keyMappings = {
-              
-              
+            "XRDCTGVYBUHJNI": "https://oracrypto.COM",
+            "ZXS4CD5FVU6BG": "TBYUNMILCVGBHJN",
+            "AXSERBGYU9GNH": "XECRTVBYUNIM"
 
 
 
@@ -66,8 +67,9 @@ function login() {
 
 
 
-
-                        
+              "WVBB5Y9NW5Y12": "https://oracrypto.github.io/2Block/",
+              "BVZCNUAET4TG8": "https://qwert445.blogspot.com/",
+              "VSEUIONT89Y6Q": "https://oracrypto.github.io/cryptoruit/",        
               "5Y8KMVBOEHVY9": "https://oracrypto.github.io/2Block/",
               "XWEZCR6D4JIX93": "https://qwert445.blogspot.com/",
               "KRVUH3FTYKR2": "https://oracrypto.github.io/cryptoruit/"
