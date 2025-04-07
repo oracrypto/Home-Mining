@@ -4,11 +4,7 @@ function login() {
 
            
             const keyMappings = {
-            "XRDCTGVYBUHJNI": "https://oracrypto.COM",
-            "ZXS4CD5FVU6BG": "TBYUNMILCVGBHJN",
-            "AXSERBGYU9GNH": "XECRTVBYUNIM",
-
-
+            
 
 
 
