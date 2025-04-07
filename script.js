@@ -71,9 +71,9 @@ function login() {
                
             };
 
-            // التحقق من المفتاح المدخل
+            
             if (keyMappings[key]) {
-                window.location.href = keyMappings[key]; // إعادة التوجيه إلى الرابط المرتبط بالمفتاح
+                window.location.href = keyMappings[key]; 
             } else {
                 errorMessage.textContent = "Invalid activation key";
                 errorMessage.style.display = "block";
@@ -84,7 +84,7 @@ function login() {
 
 
 document.addEventListener('click', function(event) {
-    // تحقق إذا كان العنصر الذي تم الضغط عليه ليس حقل إدخال
+   
     if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
        
     }
