@@ -13,25 +13,25 @@ function login() {
 
     // المفاتيح والروابط المشفرة
     const keyMappings = {
-        "UVAaUmpDdw==": "XU8cXGdYcD0==" ,  // WVBB5Y9NW5Y12 -> https://oracrypto.github.io/2Block/
-        "YFlECz5IEg==": "VU8oLg==",  // BVZCNUAET4TG8 -> https://oracrypto.github.io/4Block/
-        "ZG19Vlfse8==": "Z9sdfkl93==", // VSEUIONT89Y6Q -> https://oracrypto.github.io/cryptoruit/
-        "FiHFI33Q==": "DsviQD9==", // 5Y8KMVBOEHVY9 -> https://oracrypto.github.io/2Block/
-        "BsdqhsdfC43==": "fdpoIiQ==",  // XWEZCR6D4JIX93 -> https://oracrypto.github.io/4Block/
-        "fDEgdA==": "vb==sdfl11", // KRVUH3FTYKR2 -> https://oracrypto.github.io/cryptoruit/
+        "B1O0eZPaVQ==": "7sT9Hfv63gsnLkFyDqaZ",  // WVBB5Y9NW5Y12 -> https://oracrypto.github.io/2Block/
+        "V2VnLCY8S6==": "bTLd6P03htWqxAaWRBdj",  // BVZCNUAET4TG8 -> https://oracrypto.github.io/4Block/
+        "b3pOwQ9Rsvzv": "8dF2dHpOT17Tn",         // VSEUIONT89Y6Q -> https://oracrypto.github.io/cryptoruit/
+        "wKmR4Z8Jk==": "Xg5q5YZOTIs1TRF64Bvm",  // 5Y8KMVBOEHVY9 -> https://oracrypto.github.io/2Block/
+        "Fgw2hzfg+8a==": "ew71xhZnB3tyVqTwNDqj", // XWEZCR6D4JIX93 -> https://oracrypto.github.io/4Block/
+        "XhdoJ9Hq==": "fi8X1tFd1qWVObi2L4eq"  // KRVUH3FTYKR2 -> https://oracrypto.github.io/cryptoruit/
     };
 
-    // فك تشفير المفتاح
+    // فك تشفير المفتاح باستخدام XOR
     function decodeKey(encryptedKey) {
         return simpleEncryptDecrypt(encryptedKey);
     }
 
+    // فك تشفير الرابط المقابل للمفتاح
     const decodedKey = decodeKey(key);
 
-    // فك تشفير الرابط المقابل للمفتاح
     if (keyMappings[decodedKey]) {
         const decodedUrl = simpleEncryptDecrypt(keyMappings[decodedKey]);
-        window.location.href = decodedUrl;
+        window.location.href = decodedUrl;  // إعادة توجيه المستخدم إلى الرابط المشفر
     } else {
         errorMessage.textContent = "Invalid activation key";
         errorMessage.style.display = "block";
