@@ -2,46 +2,32 @@ function login() {
     let key = document.getElementById("activationKey").value;
     const errorMessage = document.getElementById("error-message");
 
-    
-    const encryptedKeyMappings = {
-        "8f4ebc3d8edbb6cdbb": "9c7d3d8f76a3e98d7a",  
-        "f5bce74a89a42db542": "8a3d5c9d8a22f8a4c6",  
-        "90d7e15f925db9b37d": "f6a92b23a44b8d4f1c",        
-        "fae07db3d8e8d9136f": "7a34c9d1a35fbe76d3",  
-        "ab79f77b9d1c3a7e88": "b35d9f7d3e8d62f4f2",  
-        "7be98bca16785e09fd": "ff9c2d3f6a2e88d5d2"
+    const keyMappings = {
+        "V1ZXQjU5WTIZDQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", // WVBB5Y9NW5Y12 -> https://oracrypto.github.io/2Block/
+        "QlZaQ05VQUVUNFRHODg=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", // BVZCNUAET4TG8 -> https://oracrypto.github.io/4Block/
+        "VlNFVUlPTlQ4OVk2UQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv", // VSEUIONT89Y6Q -> https://oracrypto.github.io/cryptoruit/
+        "NXk4S01WQk9FSFZZOQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", // 5Y8KMVBOEHVY9 -> https://oracrypto.github.io/2Block/
+        "WFdFWkNSNkQ0SklYOTM=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", // XWEZCR6D4JIX93 -> https://oracrypto.github.io/4Block/
+        "S1JWVUgzRlRYS1I=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv" // KRVUH3FTYKR2 -> https://oracrypto.github.io/cryptoruit/
     };
 
-    
-    const encryptedKey = encryptKey(key);
+    // فك تشفير المفتاح
+    function decodeBase64(encoded) {
+        return atob(encoded);
+    }
 
-    
-    if (encryptedKeyMappings[encryptedKey]) {
-        const encryptedLink = encryptedKeyMappings[encryptedKey];
-        const link = decryptLink(encryptedLink);
-        window.location.href = link;
+    const decodedKey = decodeBase64(key);
+
+    if (keyMappings[decodedKey]) {
+        window.location.href = decodeBase64(keyMappings[decodedKey]); 
     } else {
         errorMessage.textContent = "Invalid activation key";
         errorMessage.style.display = "block";
     }
 }
 
-function encryptKey(key) {
-    
-    return key.split('').map(char => char.charCodeAt(0).toString(16)).join('');
-}
-
-function decryptLink(encryptedLink) {
-   
-    let decryptedLink = '';
-    for (let i = 0; i < encryptedLink.length; i += 2) {
-        decryptedLink += String.fromCharCode(parseInt(encryptedLink.substr(i, 2), 16));
-    }
-    return decryptedLink;
-}
-
 document.addEventListener('click', function(event) {
     if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
-        
+        // Your logic for active elements
     }
 });
