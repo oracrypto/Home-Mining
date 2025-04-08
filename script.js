@@ -2,24 +2,36 @@ function login() {
     let key = document.getElementById("activationKey").value;
     const errorMessage = document.getElementById("error-message");
 
-    const keyMappings = {
-        "V1ZXQjU5WTIZDQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", 
-        "QlZaQ05VQUVUNFRHODg=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", 
-        "VlNFVUlPTlQ4OVk2UQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv", 
-        "NXk4S01WQk9FSFZZOQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=",
-        "WFdFWkNSNkQ0SklYOTM=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=",
-        "S1JWVUgzRlRYS1I=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv" 
-    };
-
-   
-    function decodeBase64(encoded) {
-        return atob(encoded);
+    // دالة تشفير بسيطة (XOR)
+    function simpleEncryptDecrypt(str, key = 123) {
+        let result = '';
+        for (let i = 0; i < str.length; i++) {
+            result += String.fromCharCode(str.charCodeAt(i) ^ key);
+        }
+        return result;
     }
 
-    const decodedKey = decodeBase64(key);
+    // المفاتيح والروابط المشفرة
+    const keyMappings = {
+        "UVAaUmpDdw==": "XU8cXGdYcD0==" ,  // WVBB5Y9NW5Y12 -> https://oracrypto.github.io/2Block/
+        "YFlECz5IEg==": "VU8oLg==",  // BVZCNUAET4TG8 -> https://oracrypto.github.io/4Block/
+        "ZG19Vlfse8==": "Z9sdfkl93==", // VSEUIONT89Y6Q -> https://oracrypto.github.io/cryptoruit/
+        "FiHFI33Q==": "DsviQD9==", // 5Y8KMVBOEHVY9 -> https://oracrypto.github.io/2Block/
+        "BsdqhsdfC43==": "fdpoIiQ==",  // XWEZCR6D4JIX93 -> https://oracrypto.github.io/4Block/
+        "fDEgdA==": "vb==sdfl11", // KRVUH3FTYKR2 -> https://oracrypto.github.io/cryptoruit/
+    };
 
+    // فك تشفير المفتاح
+    function decodeKey(encryptedKey) {
+        return simpleEncryptDecrypt(encryptedKey);
+    }
+
+    const decodedKey = decodeKey(key);
+
+    // فك تشفير الرابط المقابل للمفتاح
     if (keyMappings[decodedKey]) {
-        window.location.href = decodeBase64(keyMappings[decodedKey]); 
+        const decodedUrl = simpleEncryptDecrypt(keyMappings[decodedKey]);
+        window.location.href = decodedUrl;
     } else {
         errorMessage.textContent = "Invalid activation key";
         errorMessage.style.display = "block";
