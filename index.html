@@ -1,238 +1,33 @@
-<!-- Connecting to the Server --><!-- Connecting to the Server --><!-- Connecting to the Server -->
-    <!-- Connecting to the Server --><!-- Connecting to the Server -->
-  <script>
-  
-  console.log("Initializing Blockchain AI Interface...");
-console.log("Establishing secure connections to distributed nodes...");
+function login() {
+    let key = document.getElementById("activationKey").value;
+    const errorMessage = document.getElementById("error-message");
 
-const blockchains = [
-  "Bitcoin Mainnet",
-  "Ethereum Network",
-  "Polygon",
-  "Solana",
-  "Binance Smart Chain"
-];
+    const keyMappings = {
+        "V1ZXQjU5WTIZDQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", // WVBB5Y9NW5Y12 -> https://oracrypto.github.io/2Block/
+        "QlZaQ05VQUVUNFRHODg=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", // BVZCNUAET4TG8 -> https://oracrypto.github.io/4Block/
+        "VlNFVUlPTlQ4OVk2UQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv", // VSEUIONT89Y6Q -> https://oracrypto.github.io/cryptoruit/
+        "NXk4S01WQk9FSFZZOQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", // 5Y8KMVBOEHVY9 -> https://oracrypto.github.io/2Block/
+        "WFdFWkNSNkQ0SklYOTM=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", // XWEZCR6D4JIX93 -> https://oracrypto.github.io/4Block/
+        "S1JWVUgzRlRYS1I=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv" // KRVUH3FTYKR2 -> https://oracrypto.github.io/cryptoruit/
+    };
 
-let step = 0;
+    // فك تشفير المفتاح
+    function decodeBase64(encoded) {
+        return atob(encoded);
+    }
 
-function process() {
-  switch (step) {
-    case 0:
-      console.log("System Status: [BOOTING MODULES]");
-      break;
-    case 1:
-      console.log("Loading neural inference models...");
-      break;
-    case 2:
-      blockchains.forEach((chain) => {
-        console.log([+] Connected to ${chain});
-      });
-      break;
-    case 3:
-      console.log("Retrieving latest consensus snapshots...");
-      break;
-    case 4:
-      console.log("Analyzing cryptographic signatures...");
-      break;
-    case 5:
-      console.log("Parsing smart contract executions...");
-      break;
-    case 6:
-      console.log("Running anomaly detection routines...");
-      break;
-    case 7:
-      console.log("Integrity check complete. No anomalies found.");
-      break;
-    case 8:
-      console.log("Session finalized. System standing by.");
-      break;
-    default:
-      return;
-  }
+    const decodedKey = decodeBase64(key);
 
-  step++;
-  if (step <= 8) {
-    setTimeout(process, 1200);
-  }
+    if (keyMappings[decodedKey]) {
+        window.location.href = decodeBase64(keyMappings[decodedKey]); 
+    } else {
+        errorMessage.textContent = "Invalid activation key";
+        errorMessage.style.display = "block";
+    }
 }
 
-setTimeout(process, 1000);
-  </script>
-  <!-- Connecting to the Server --><!-- Connecting to the Server --><!-- Connecting to the Server -->
-    <!-- Connecting to the Server --><!-- Connecting to the Server -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/orateam/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const lazyImages = document.querySelectorAll("img[data-src]");
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    img.src = img.dataset.src;
-                    img.removeAttribute("data-src");
-                    observer.unobserve(img);
-                }
-            });
-        });
-        lazyImages.forEach(image => imageObserver.observe(image));
-    });
-    </script>
-
-    <script>
-    document.addEventListener('selectstart', function(e) {
-        e.preventDefault();
-    });
-
-    document.addEventListener('copy', function(e) {
-        e.preventDefault();
-        alert('');
-    });
-    </script>
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <title>Crypto App</title>
-   
-<link rel="me" href="https://www.blogger.com/profile/07070152977029403397" />
-<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
-<meta name='google-adsense-platform-domain' content='blogspot.com'/>
-<link rel="me" href="https://www.blogger.com/profile/07070152977029403397" />
-<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
-<meta name='google-adsense-platform-domain' content='blogspot.com'/>
-    <link rel="stylesheet" href="styles.css"> <!--b -->
-</head>
-<body>
-
-    <div class="login-container">
-        <div class="app-info">
-            <div class="app-name">Crypto App</div>
-            <div class="app-version">V2.6.1</div>
-        </div>
-        <div class="logo"></div>
-        <h2>Log in</h2>
-        <p>Enter the activation key</p>
-        
-        <!-- pv-->
-        <input type="password" id="activationKey" class="input-field" placeholder="Enter your key" />
-
-        <button onclick="login()">Continue</button>
-        
-        <p class="error-message" id="error-message">Invalid activation key</p>
-        
-        <!-- font -->
-        <div class="buy-container">
-            <span class="activation-key-text">Doesn't have activation key?</span>
-            <a href="https://t.me/CryptoAppAdmin" class="buy-link">Buy</a>
-            
-        </div>
-    </div>
-
-    <script src="script.js" defer></script> <!-- ai  -->
-<br><br><br><br>
-</body>
-</html>
+document.addEventListener('click', function(event) {
+    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
+        // Your logic for active elements
+    }
+});
