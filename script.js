@@ -3,15 +3,15 @@ function login() {
     const errorMessage = document.getElementById("error-message");
 
     const keyMappings = {
-        "V1ZXQjU5WTIZDQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", // WVBB5Y9NW5Y12 -> https://oracrypto.github.io/2Block/
-        "QlZaQ05VQUVUNFRHODg=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", // BVZCNUAET4TG8 -> https://oracrypto.github.io/4Block/
-        "VlNFVUlPTlQ4OVk2UQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv", // VSEUIONT89Y6Q -> https://oracrypto.github.io/cryptoruit/
-        "NXk4S01WQk9FSFZZOQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", // 5Y8KMVBOEHVY9 -> https://oracrypto.github.io/2Block/
-        "WFdFWkNSNkQ0SklYOTM=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", // XWEZCR6D4JIX93 -> https://oracrypto.github.io/4Block/
-        "S1JWVUgzRlRYS1I=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv" // KRVUH3FTYKR2 -> https://oracrypto.github.io/cryptoruit/
+        "V1ZXQjU5WTIZDQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=", 
+        "QlZaQ05VQUVUNFRHODg=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=", 
+        "VlNFVUlPTlQ4OVk2UQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv", 
+        "NXk4S01WQk9FSFZZOQ==": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzJCbG9jay8=",
+        "WFdFWkNSNkQ0SklYOTM=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvLzRCbG9jay8=",
+        "S1JWVUgzRlRYS1I=": "aHR0cHM6Ly9vcmFjeWlwdG8uZ2l0aHViLmlvL2NyeXB0b3J1aXQv" 
     };
 
-    // فك تشفير المفتاح
+   
     function decodeBase64(encoded) {
         return atob(encoded);
     }
