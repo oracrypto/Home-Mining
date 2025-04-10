@@ -85,7 +85,15 @@ function login() {
             }
         }
 
+window.onload = function() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+        const isTelegram = userAgent.toLowerCase().includes("telegram");
+
+      if (!isTelegram) {
+          window.location.href = "https://t.me/rewallets_bot";
+      }
+      }
 
 
 document.addEventListener('click', function(event) {
