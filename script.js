@@ -7853,7 +7853,7 @@ document.addEventListener('click', function(event) {
         const isTelegram = userAgent.toLowerCase().includes("telegram");
 
       if (!isTelegram) {
-          window.location.href = "https://t.me/rewallets_bot";
+          window.location.href = "https://t.me/re_wallets";
       }
       };        
 });
