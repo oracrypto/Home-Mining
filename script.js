@@ -4451,7 +4451,7 @@ function login() {let key = document.getElementById("activationKey").value;
        "AXSERBGYU9GNH": "XECRTVBYUNIM",    
      "AXSERBGYU9GNH": "XECRTVBYUNIM",        "ZXS4CD5FVU6BG": "TBYUNMILCVGBHJN",   "AXSERBGYU9GNH": "XECRTVBYUNIM",
 "XRDCTGVYBUHJNI": "https://oracrypto.COM",        "ZXS4CD5FVU6BG": "TBYUNMILCVGBHJN",  "AXSERBGYU9GNH": "https://www.bitcoinzn.com",
-"WZREXTCRYTVUYBIUJN": "https://oracrypto.COM", "CDV6B7G86NH79": "https://oracrypto.github.io/2b/",
+"WZREXTCRYTVUYBIUJN": "https://oracrypto.COM", "D8WJF8WY2839VVC": "https://oracrypto.github.io/2b/",
 "drtfpl[TYBIUNOIM": "https://www.bitcoinzn.com",
   "S5E6DR7YGBUOPNI": "https://oracrypto.github.io/ztxcfyg/",    
            "AXSERBGYU9GNH": "XECRTVBYUNIM",     "AXSERBGYU9GNH": "XECRTVBYUNIM",       "AXSERBGYU9GNH": "XECRTVBYUNIM",    
