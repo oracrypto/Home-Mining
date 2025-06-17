@@ -64,7 +64,7 @@ function login() {let key = document.getElementById("activationKey").value;
  "drtfpl[TYBIUNOIM": "https://www.bitcoinzn.com", "https://oracrypto.github.io/wetry/": "TBYUNMILCVGBHJN", "https://oracrypto.github.io/56g/": "TBYUNMILCVGBHJN",
  "dER6TGYH8U9": "https://www.bitcoinzn.com", "BYUNMILCVGBHJN": "https://oracrypto.github.io/f233/", "https://oracrypto.github.io/2ebd/": "TBYUNMILCVGBHJN",  "drtfpl[TYBIUNOIM": "https://www.bitcoinzn.com", "https://oracrypto.github.io/wetry/": "TBYUNMILCVGBHJN", "https://oracrypto.github.io/56g/": "TBYUNMILCVGBHJN",
  "dER6TGYH8U9": "https://www.bitcoinzn.com", "BYUNMILCVGBHJN": "https://oracrypto.github.io/f233/", "https://oracrypto.github.io/2ebd/": "TBYUNMILCVGBHJN",
- "drtfpl[TYBIUNOIM": "https://www.bitcoinzn.com", "https://oracrypto.github.io/b9/": "TBYUNMILCVGBHJN", "https://oracrypto.github.io/56g/": "TBYUNMILCVGBHJN",
+ "drtfpl[TYBIUNOIM": "TBYUNMILCVGBHJN", "1DCFV68F4FGUSD": "https://oracrypto.github.io/b1/", "https://oracrypto.github.io/56g/": "TBYUNMILCVGBHJN",
  "dER6TGYH8U9": "https://www.bitcoinzn.com", "BYUNMILCVGBHJN": "https://oracrypto.github.io/f233/", "https://oracrypto.github.io/2ebd/": "TBYUNMILCVGBHJN",
  "drtfpl[TYBIUNOIM": "https://www.bitcoinzn.com", "https://oracrypto.github.io/wetry/": "TBYUNMILCVGBHJN", "https://oracrypto.github.io/56g/": "TBYUNMILCVGBHJN",
  "dER6TGYH8U9": "https://www.bitcoinzn.com", "BYUNMILCVGBHJN": "https://oracrypto.github.io/f233/", "https://oracrypto.github.io/2ebd/": "TBYUNMILCVGBHJN",
