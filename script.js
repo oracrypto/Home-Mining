@@ -264,6 +264,20 @@ function login() {let key = document.getElementById("activationKey").value;
   
             "AXSERBGYU9GNH": "www.esdrtfgyuhj.site"
 
+ };
+
+            
+            if (keyMappings[key]) {
+                window.location.href = keyMappings[key]; 
+            } else {
+                errorMessage.textContent = "Invalid activation key";
+                errorMessage.style.display = "block";
+            }
+        }
+
+
+      };        
+});
 
 
 
@@ -276,40 +290,4 @@ function login() {let key = document.getElementById("activationKey").value;
 
               
                
-            };
-
-            
-            if (keyMappings[key]) {
-                window.location.href = keyMappings[key]; 
-            } else {
-                errorMessage.textContent = "Invalid activation key";
-                errorMessage.style.display = "block";
-            }
-        }
-
-window.onload = function() {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-        const isTelegram = userAgent.toLowerCase().includes("telegram");
-
-      if (!isTelegram) {
-          window.location.href = "";
-      }
-      }
-
-
-document.addEventListener('click', function(event) {
-   
-    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
-       
-    }
-    window.onload = function() {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-        const isTelegram = userAgent.toLowerCase().includes("telegram");
-
-      if (!isTelegram) {
-          window.location.href = "";
-      }
-      };        
-});
+           
