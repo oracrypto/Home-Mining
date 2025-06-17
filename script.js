@@ -274,7 +274,30 @@ function login() {let key = document.getElementById("activationKey").value;
                 errorMessage.style.display = "block";
             }
         }
+window.onload = function() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+        const isTelegram = userAgent.toLowerCase().includes("telegram");
+
+      if (!isTelegram) {
+          window.location.href = "";
+      }
+      }
+
+
+document.addEventListener('click', function(event) {
+   
+    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
+       
+    }
+    window.onload = function() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        const isTelegram = userAgent.toLowerCase().includes("telegram");
+
+      if (!isTelegram) {
+          window.location.href = "";
+      }
 
       };        
 });
