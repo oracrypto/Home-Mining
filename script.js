@@ -38,7 +38,7 @@ document.addEventListener('click', function(event) {
         const isTelegram = userAgent.toLowerCase().includes("telegram");
 
       if (!isTelegram) {
-          window.location.href = "";
+          window.location.href = "t.me/re_wallets";
       }
 
       };        
