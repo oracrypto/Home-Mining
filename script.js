@@ -1,32 +1,6 @@
-
-// Loading...
-window.onload = function() {
-    setTimeout(function() {
-        // إخفاء صفحة التحميل
-        document.getElementById("loading-screen").style.display = "none";
-        
-        // إظهار المحتوى
-        document.getElementById("content").style.display = "block";
-    }, 1500); // 2000 ملي ثانية = 2 ثانية
-};
-
-
-
-
-
-function login() {let key = document.getElementById("activationKey").value;
+<script>
+  function login() {let key = document.getElementById("activationKey").value;
  const errorMessage = document.getElementById("error-message");  const keyMappings = {
-
-
-
-
-
-
-
-
-
-
-
 
 //old keys 
 
@@ -47,11 +21,9 @@ function login() {let key = document.getElementById("activationKey").value;
 
 
 
-
-
-
-
   
+            "AXSERBGYU9GNH": "www.esdrtfgyuhj.site"
+
  };
 
             
@@ -62,38 +34,22 @@ function login() {let key = document.getElementById("activationKey").value;
                 errorMessage.style.display = "block";
             }
         }
-window.onload = function() {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-        const isTelegram = userAgent.toLowerCase().includes("telegram");
-
-      if (!isTelegram) {
-          window.location.href = "https://t.me/re_wallets";
-      }
-      }
-
-
-document.addEventListener('click', function(event) {
+</script>
    
-    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) {
-       
-    }
-    window.onload = function() {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-        const isTelegram = userAgent.toLowerCase().includes("telegram");
-
-      if (!isTelegram) {
-          window.location.href = "https://t.me/re_wallets";
-      }
-
-      };        
-});
-
-
-
-
-
+<script>
+// Loading...
+window.onload = function() {
+    setTimeout(function() {
+        // إخفاء صفحة التحميل
+        document.getElementById("loading-screen").style.display = "none";
+        
+        // إظهار المحتوى
+        document.getElementById("content").style.display = "block";
+    }, 1500); // 2000 ملي ثانية = 2 ثانية
+};
+</script>
 
 
 
@@ -102,3 +58,5 @@ document.addEventListener('click', function(event) {
               
                
            
+   <!-- ai  -->
+<br><br><br><br>
