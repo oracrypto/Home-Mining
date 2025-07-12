@@ -44,7 +44,7 @@ window.onload = function() {
         
         // إظهار المحتوى
         document.getElementById("content").style.display = "block";
-    }, 1500); // 2000 ملي ثانية = 2 ثانية
+    }, 500); // 2000 ملي ثانية = 2 ثانية
 };
 
 
