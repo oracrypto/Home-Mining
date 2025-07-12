@@ -1,13 +1,3 @@
-:root {
-    --top-position: -20px;
-    --left-position: 1px;
-    --logo-size: 310px;
-    --font-size-app-name: 21px;
-    --font-size-app-version: 14px;
-    --input-width: 366px;
-    --button-width: 367px;
-    --element-spacing: 10px;
-}
   /* Loading... */
 .loading-screen {
   position: fixed;
@@ -30,6 +20,18 @@
   cursor: pointer;
 }   
   /* Loading... */ 
+
+:root {
+    --top-position: -20px;
+    --left-position: 1px;
+    --logo-size: 310px;
+    --font-size-app-name: 21px;
+    --font-size-app-version: 14px;
+    --input-width: 366px;
+    --button-width: 367px;
+    --element-spacing: 10px;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
