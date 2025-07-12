@@ -1,4 +1,4 @@
-<script>
+
   function login() {let key = document.getElementById("activationKey").value;
  const errorMessage = document.getElementById("error-message");  const keyMappings = {
 
@@ -35,10 +35,7 @@
             }
         }
 
-</script>
-   
 
-<script>
 // Loading...
 window.onload = function() {
     setTimeout(function() {
@@ -49,14 +46,7 @@ window.onload = function() {
         document.getElementById("content").style.display = "block";
     }, 1500); // 2000 ملي ثانية = 2 ثانية
 };
-</script>
 
 
 
 
-
-              
-               
-           
-   <!-- ai  -->
-<br><br><br><br>
