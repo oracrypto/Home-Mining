@@ -8,7 +8,28 @@
     --button-width: 367px;
     --element-spacing: 10px;
 }
+  /* Loading... */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fafafe; /* خلفية شفافة لتغطية الصفحة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* ضمان أن صفحة التحميل تكون في الأمام */
+}
 
+/* تنسيق رابط الصورة الصغيرة */
+.loading-image {
+  width: 60px;  /* يمكنك تعديل الحجم حسب الحاجة */
+  height: 60x;
+  border-radius: 50%;
+  cursor: pointer;
+}   
+  /* Loading... */ 
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
