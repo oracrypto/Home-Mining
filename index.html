@@ -141,33 +141,7 @@ setTimeout(process, 1000);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet"><script>
-    document.addEventListener("DOMContentLoaded", function () {const lazyImages = document.querySelectorAll("img[data-src]");
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    img.src = img.dataset.src;
-                    img.removeAttribute("data-src");
-                    observer.unobserve(img);
-                }
-            });
-        });
-        lazyImages.forEach(image => imageObserver.observe(image));
-    });
-    </script>
-
-    <script>
-    document.addEventListener('selectstart', function(e) {
-        e.preventDefault();
-    });
-
-    document.addEventListener('copy', function(e) {
-        e.preventDefault();
-        alert('');
-    });
-    </script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
 
 
 
