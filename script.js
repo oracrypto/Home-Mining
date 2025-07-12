@@ -13,7 +13,7 @@
   
   "AR52F1C9HFECHRX": "https://oracrypto.github.io/1b/", "BX74SDYI9SJEFWID": "https://oracrypto.github.io/2b/",
 "BVNCXIU6336XBDJE": "https://oracrypto.github.io/4b/", "VCNSXJU3YCHD83": "https://oracrypto.github.io/6b/",
-            "C4479UHDYHJDGJHJHK": "https://oracrypto.github.io/WE/"
+            "C4479UHDYHJDGJHJHK": "https://oracrypto.github.io/WE/",
 
 
 
@@ -44,7 +44,7 @@ window.onload = function() {
         
         // إظهار المحتوى
         document.getElementById("content").style.display = "block";
-    }, 500); // 2000 ملي ثانية = 2 ثانية
+    }, 1500); // 2000 ملي ثانية = 2 ثانية
 };
 
 
