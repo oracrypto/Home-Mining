@@ -53,7 +53,7 @@ function login() {let key = document.getElementById("activationKey").value;
 
   
  };
-<!--WW-->
+
             
             if (keyMappings[key]) {
                 window.location.href = keyMappings[key]; 
@@ -68,7 +68,7 @@ window.onload = function() {
         const isTelegram = userAgent.toLowerCase().includes("telegram");
 
       if (!isTelegram) {
-          window.location.href = "t.me/re_wallets";
+          window.location.href = "https://t.me/re_wallets";
       }
       }
 
@@ -84,7 +84,7 @@ document.addEventListener('click', function(event) {
         const isTelegram = userAgent.toLowerCase().includes("telegram");
 
       if (!isTelegram) {
-          window.location.href = "t.me/re_wallets";
+          window.location.href = "https://t.me/re_wallets";
       }
 
       };        
