@@ -12,7 +12,7 @@
 //new keys
   
   "AR52F1C9HFECHRX": "https://oracrypto.github.io/1b/", "BX74SDYI9SJEFWID": "https://oracrypto.github.io/2b/",
-"BVNCXIU6336XBDJE": "https://oracrypto.github.io/4b/", "VCNSXJU3YCHD83": "https://oracrypto.github.io/6b/",
+"BVNCXIU6336XBDJE": "https://oracrypto.github.io/4b/", "XHRVYECS583VU": "https://oracrypto.github.io/6b/",
             "C4479UHDYHJDGJHJHK": "https://oracrypto.github.io/WE/",
 
 
