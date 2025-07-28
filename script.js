@@ -5,7 +5,7 @@
 //old keys 
 
   
- "567VCMWEOHWIG": "https://oracrypto.github.io/1b/", "BOSVRTTHB8CD": "https://oracrypto.github.io/2b/", "VCI7TGH29XHQGTE": "https://oracrypto.github.io/4b/",
+ "FEUDT26GK59XGKD": "https://oracrypto.github.io/1b/", "CJYZJ47JOECAM": "https://oracrypto.github.io/2b/", "NCOAY36PDNW3H": "https://oracrypto.github.io/4b/",
  "VC86HJ73BWUGDH": "https://oracrypto.github.io/6b/",
 
 
