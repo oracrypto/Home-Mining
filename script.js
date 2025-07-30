@@ -5,8 +5,8 @@
 //old keys 
 
   
- "": "https://oracrypto.github.io//", "": "https://oracrypto.github.io//", "": "https://oracrypto.github.io//",
- "": "https://oracrypto.github.io//",
+ "MDO62BXL92NXO": "https://oracrypto.github.io//", "NDOS52NCOS73H": "https://oracrypto.github.io//", "NDO63NFPW10DK": "https://oracrypto.github.io//",
+ "BXO38NXOSWPP20": "https://oracrypto.github.io//",
 
 
 //new keys
