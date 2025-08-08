@@ -2,7 +2,7 @@
   function login() {let key = document.getElementById("activationKey").value;
  const errorMessage = document.getElementById("error-message");  const keyMappings = {
 //demo keys
- "DEMO-KEY2025-PK19": "https://oracrypto.github.io/1b/", "DEMO-KEY2025-BD6D": "https://oracrypto.github.io/1b/",
+ "DEMO-KEY2025-PK19": "https://oracrypto.github.io/demo/", "DEMO-KEY2025-BD6D": "https://oracrypto.github.io/demo/",
 
    
 //old keys 
