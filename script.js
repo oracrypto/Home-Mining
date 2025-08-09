@@ -8,7 +8,7 @@
 //old keys 
 
   
-"DEMO-KEY2025-PK19": "https://demo-key-2025.blogspot.com/", "DEMO-KEY2025-BD6D": "https://demo-key-2025.blogspot.com/",
+"DEMOKEY2025PK19": "https://oracrypto.github.io/demo/", "DEMOKEY2025BD6D": "https://oracrypto.github.io/demo/",
 "MDO62BXL92NXO": "https://oracrypto.github.io/1b/", "NDOS52NCOS73H": "https://oracrypto.github.io/2b/", "NDO63NFPW10DK": "https://oracrypto.github.io/4b/",
  "BXO38NXOSWPP20": "https://oracrypto.github.io/6b/",
 
