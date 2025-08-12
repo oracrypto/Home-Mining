@@ -16,7 +16,7 @@
 //new keys
   
   "CJYZJ47JOECAM": "https://oracrypto.github.io/2b/", "": "https://oracrypto.github.io/4b/",
-"": "https://oracrypto.github.io//", "": "https://oracrypto.github.io//",
+"": "https://oracrypto.github.io//", "JDOYWE7LDP00D6B": "https://oracrypto.github.io/6b/",
             "": "https://oracrypto.github.io/WE/",
 
 
